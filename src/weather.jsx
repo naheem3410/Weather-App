@@ -70,7 +70,7 @@ const styles = {
     fontFamily: 'Arial, sans-serif',
     padding: '20px',
     boxSizing: 'border-box',
-    width: '100vw'
+    width: '200vw'
   },
   title: {
     fontSize: '36px',
