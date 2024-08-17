@@ -11,7 +11,7 @@ const Weather = () => {
     setLoading(true);
     setError(null);
 
-    fetch(`http://api.weatherapi.com/v1/current.json?key=edd7a96fb0944d5b8f2105145241708&q=${location}&aqi=no`)
+    fetch(`https://api.weatherapi.com/v1/current.json?key=edd7a96fb0944d5b8f2105145241708&q=${location}&aqi=no`)
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
