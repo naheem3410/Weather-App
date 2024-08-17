@@ -65,12 +65,12 @@ const styles = {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    height: '100vh',
+    height: '100%',
     background: 'linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%)',
     fontFamily: 'Arial, sans-serif',
     padding: '20px',
     boxSizing: 'border-box',
-    
+    width: '100%'
   },
   title: {
     fontSize: '36px',
